@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_ampaar"
+        android:icon="@drawable/ic_ampaar"
+        android:title="Ампаар"/>
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/ic_store"
+        android:title="Каталог"/>
+
+    <item
+        android:id="@+id/navigation_barter"
+        android:icon="@drawable/ic_barter"
+        android:title="Бартер" />
+
+</menu>

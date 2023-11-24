@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_ampaar">
+
+    <fragment
+        android:id="@+id/navigation_ampaar"
+        android:name="com.lopatinm.ampaar.ui.ampaar.AmpaarFragment"
+        android:label="Ампаар"
+        tools:layout="@layout/fragment_ampaar" />
+
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.lopatinm.ampaar.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.lopatinm.ampaar.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.lopatinm.ampaar.ui.exit.ExitFragment"
+        android:label="@string/menu_exit"
+        tools:layout="@layout/fragment_exit" />
+
+
+
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.lopatinm.ampaar.ui.add.AddFragment"
+        android:label="@string/title_add"
+        tools:layout="@layout/fragment_add" />
+
+    <fragment
+        android:id="@+id/navigation_barter"
+        android:name="com.lopatinm.ampaar.ui.barter.BarterFragment"
+        android:label="Бартер"
+        tools:layout="@layout/fragment_barter" />
+
+
+</navigation>
